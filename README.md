@@ -1,4 +1,4 @@
-# CleftMeter 1.0
+# CleftMeter
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14870813.svg)](https://doi.org/10.5281/zenodo.14870813)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
