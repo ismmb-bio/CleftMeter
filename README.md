@@ -1,5 +1,4 @@
-# CleftMeter 1.0 - User Manual
-
+# CleftMeter 1.0
 ## Authors
 
 - **Libor Borák, Ph.D.**  
