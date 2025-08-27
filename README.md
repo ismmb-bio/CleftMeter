@@ -1,4 +1,8 @@
 # CleftMeter 1.0
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14870813.svg)](https://doi.org/10.5281/zenodo.14870813)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
+
 ## Authors
 
 - **Libor Borák, Ph.D.**  
@@ -20,20 +24,21 @@ Date: **2025**
 ---
 
 ## Table of Contents
-1. Introduction  
-2. Installation and System Requirements  
-3. User Interface Overview  
-4. Core Workflow: A Step-by-Step Guide  
-   4.1 Loading an STL Model  
-   4.2 Defining Anatomical Points  
-   4.3 Editing, Skipping, and Deleting Points  
-   4.4 Saving Your Work  
-   4.5 Loading Existing Work  
-5. Managing Measurements  
-   5.1 Adding Custom Distances and Angles  
-   5.2 Visualizing and Removing Measurements  
-6. Anatomical Landmarks  
-7. Data Export for Analysis (e.g., in Excel)  
+1. [Introduction](#1-introduction)  
+2. [Installation and System Requirements](#2-installation-and-system-requirements)  
+3. [User Interface Overview](#3-user-interface-overview)  
+4. [Core Workflow: A Step-by-Step Guide](#4-core-workflow-a-step-by-step-guide)  
+  4.1 [Loading an STL Model](#41-loading-an-stl-model)  
+  4.2 [Defining Anatomical Points](#42-defining-anatomical-points)  
+  4.3 [Editing, Skipping, and Deleting Points](#43-editing-skipping-and-deleting-points)  
+  4.4 [Saving Your Work](#44-saving-your-work)  
+  4.5 [Loading Existing Work](#45-loading-existing-work)  
+5. [Managing Measurements](#5-managing-measurements)  
+  5.1 [Adding Custom Distances and Angles](#51-adding-custom-distances-and-angles)  
+  5.2 [Visualizing and Removing Measurements](#52-visualizing-and-removing-measurements)  
+6. [Anatomical Landmarks](#6-anatomical-landmarks)  
+7. [Data Export for Analysis (e.g., in Excel)](#7-data-export-for-analysis-eg-in-excel)  
+ 
 
 ---
 
