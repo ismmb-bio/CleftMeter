@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CleftMeter"
+version: "1.0"
+date-released: "2025-08-26"
+authors:
+  - family-names: "Borák"
+    given-names: "Libor"
+    name-suffix: "Ph.D."
+    affiliation: >
+      Assistant Professor, Institute of Solid Mechanics, Mechatronics and Biomechanics,
+      Faculty of Mechanical Engineering, Brno University of Technology, Brno, Czech Republic
+  - family-names: "Marcián"
+    given-names: "Petr"
+    name-suffix: "Ph.D."
+    affiliation: >
+      Assistant Professor, Institute of Solid Mechanics, Mechatronics and Biomechanics,
+      Faculty of Mechanical Engineering, Brno University of Technology, Brno, Czech Republic
+  - family-names: "Košková"
+    given-names: "Olga"
+    name-suffix: "Ph.D."
+    affiliation: >
+      Assistant Professor, Department of Burns and Plastic Surgery, University Hospital Brno
+      and Faculty of Medicine, Masaryk University, Brno, Czech Republic; 
+      Cleft Center of the University Hospital Brno, Brno, Czech Republic
+repository-code: "https://github.com/ismmb-bio/CleftMeter"
+preferred-citation:
+  type: software
+  title: "CleftMeter"
+  version: "1.0"
+  authors:
+    - family-names: "Borák"
+      given-names: "Libor"
+    - family-names: "Marcián"
+      given-names: "Petr"
+    - family-names: "Košková"
+      given-names: "Olga"
+  doi: "10.5281/zenodo.14870813"
