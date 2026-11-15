@@ -59,7 +59,7 @@ The software provides a streamlined workflow for researchers and clinicians, ena
 - Protection against accidental loss of unsaved changes.
 - Adjustable model transparency, customizable 3D workspace background color, and general interface improvements.
 
-Documentation for the original release is available in the [v1.0 folder](v1.0/README.md).
+Documentation for CleftMeter 2.0 is available in the [v2.0 release](https://github.com/ismmb-bio/CleftMeter/tree/v1.0).
 
 ---
 
