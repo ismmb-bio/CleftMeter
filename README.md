@@ -1,7 +1,7 @@
 # CleftMeter
 
 [![Concept DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16970748.svg)](https://doi.org/10.5281/zenodo.16970748)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Authors
 
@@ -86,7 +86,7 @@ This format is intended for developers or users on other operating systems (macO
      ```bash
      pip install PySide6 numpy vtk
      ```
-  4. Download the files from the [v2.0 folder](v2.0/) and run the script:
+  4. Download [`CleftMeter_v2.0.py`](CleftMeter_v2.0.py) and [`reference_points.png`](reference_points.png) from the repository root and run the script:
      ```bash
      python CleftMeter_v2.0.py
      ```
@@ -99,7 +99,7 @@ This format is intended for developers or users on other operating systems (macO
 
 The main window of CleftMeter is divided into two primary sections: the **Control Panel** on the left and the **3D Viewport** on the right.
 
-![Figure1: Full Application Window (CleftMeter 2.0)](docs/figure1.PNG)
+![Figure1: Full Application Window (CleftMeter 2.0)](docs/figure1_v2.PNG)
 
 - **(A) 3D Viewport:** This is the main interactive window where your STL model is displayed. You can rotate, pan, and zoom the model here. In the top-left corner, a list of keyboard controls is visible. In the top-right, the name of the loaded STL file is shown. A reference landmark diagram with color-coded consistency indicators appears in the lower-left corner. Right-click the 3D workspace to change its background color.
 - **(B) Control Panel:** Located on the left, this panel contains all the data and measurement tools.
@@ -137,7 +137,7 @@ After loading a model, the application enters point definition mode. The Prompt 
 4. A red sphere and a text label for the point will appear on the model. The Points List will update with the coordinates, and the Prompt Bar will automatically advance to the next point in the sequence.
 5. Repeat this process for all required points.
 
-![Figure2: Defining a Point](docs/figure2.PNG)
+![Figure2: Defining a Point](docs/figure2_v2.PNG)
 
 ### 4.3 Editing, Skipping, and Deleting Points
 
@@ -200,14 +200,14 @@ CleftMeter comes with a default set of distances and angles, but you can also de
    - **For an Angle:** Select three points. The angle will be measured at the second point selected (the vertex).
 4. Click **OK**. The new measurement will appear in the corresponding list.
 
-![Figure3: Add Distance Dialog](docs/figure3.PNG)
+![Figure3: Add Distance Dialog](docs/figure3_v2.PNG)
 
 ### 5.2 Visualizing and Removing Measurements
 
 - **To Visualize:** Simply click on any distance or angle in its list. The corresponding points and a line (or lines) representing the measurement will be highlighted in the 3D Viewport.
 - **To Remove:** First, click on the measurement in the list to select it. Then, click the **Remove Selected** button. You will be asked to confirm the deletion.
 
-![Figure4: Visualizing Measurements](docs/figure4.PNG)
+![Figure4: Visualizing Measurements](docs/figure4_v2.PNG)
 
 ---
 
@@ -217,7 +217,7 @@ CleftMeter is pre-configured with a set of landmarks commonly used in the analys
 
 - **Default Landmarks:** I, P, P', L, L', C, C', Q, Q', T, T'
 
-![Figure5: Anatomical Landmarks](docs/figure5.PNG)
+![Figure5: Anatomical Landmarks](docs/figure5_v2.PNG)
 
 CleftMeter 2.0 also allows users to define additional custom landmarks (X1, X2, ...) for measurements that are not covered by the predefined scheme.
 
@@ -256,7 +256,7 @@ To export your data:
 
 The report contains tab-separated measurement labels and values, which can be arranged into columns for subsequent analysis if needed.
 
-![Figure6: Clinical TXT Report (CleftMeter 2.0)](docs/figure6.PNG)
+![Figure6: Clinical TXT Report (CleftMeter 2.0)](docs/figure6_v2.PNG)
 
 **Note on Data File Compatibility:** CleftMeter 2.0 can read the tab-separated TXT files saved by CleftMeter 1.0, including their `[POINTS]`, `[DISTANCES]`, and `[ANGLES]` sections. This allows existing measurement sessions to be transferred to the new project format. For an explanation of the original v1.0 data export, see the [CleftMeter 1.0 documentation](v1.0/README.md).
 
