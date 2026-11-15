@@ -20,7 +20,7 @@
 
 Version: **2.0**  
 Date: **2026**  
-Previous release: **[CleftMeter 1.0 (2025)](v1.0/README.md)**
+Previous release: **[CleftMeter 1.0 (2025)](https://github.com/ismmb-bio/CleftMeter/tree/v1.0)**
 
 ---
 
@@ -58,8 +58,6 @@ The software provides a streamlined workflow for researchers and clinicians, ena
 - A new `.cleftp` project format and a separate clinical TXT report, with support for importing TXT data files saved by CleftMeter 1.0.
 - Protection against accidental loss of unsaved changes.
 - Adjustable model transparency, customizable 3D workspace background color, and general interface improvements.
-
-Documentation for CleftMeter 2.0 is available in the [v2.0 release](https://github.com/ismmb-bio/CleftMeter/tree/v1.0).
 
 ---
 
