@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "CleftMeter"
-version: "1.0"
-date-released: "2025-08-26"
+version: "2.0"
+date-released: "2026-11-14"
 authors:
   - family-names: "Borák"
     given-names: "Libor"
@@ -27,7 +27,8 @@ repository-code: "https://github.com/ismmb-bio/CleftMeter"
 preferred-citation:
   type: software
   title: "CleftMeter"
-  version: "1.0"
+  version: "2.0"
+  year: 2026
   authors:
     - family-names: "Borák"
       given-names: "Libor"
@@ -35,5 +36,5 @@ preferred-citation:
       given-names: "Petr"
     - family-names: "Košková"
       given-names: "Olga"
-  doi: "10.5281/zenodo.16970749"
-
+  doi: "10.5281/zenodo.16970748"
+  url: "https://github.com/ismmb-bio/CleftMeter/releases/tag/v2.0"
